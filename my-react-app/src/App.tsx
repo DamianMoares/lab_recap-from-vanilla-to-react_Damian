@@ -41,8 +41,8 @@ function App() {
       <main>
         <div className="user-list-container">
           {users.map((user) => (
-            <div key ={user.id} className="user-card">
-              <img src ={user.image} alt={user.firstName} />
+            <div key={user.id} className="user-card">
+              <img src={user.image} alt={user.firstName} />
               <p>
                 {user.firstName} {user.lastName}
               </p>
