@@ -116,6 +116,9 @@
   }
 
   a {
+     width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
     color: var(--text-h);
     font-size: 16px;
     border-radius: 6px;
@@ -145,11 +148,7 @@
       flex: 1 1 calc(50% - 8px);
     }
 
-    a {
-      width: 100%;
-      justify-content: center;
-      box-sizing: border-box;
-    }
+  
   }
 }
 
@@ -164,6 +163,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 10px;
+}
+.user-card{
+  width: 20%;
+  height: 300px;
+  margin: 15px;
+  background-color: aliceblue;
+  border-radius: 20%;
 }
 
 .ticks {

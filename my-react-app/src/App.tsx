@@ -46,6 +46,9 @@ function App() {
               <p>
                 {user.firstName} {user.lastName}
               </p>
+              <p>
+                {user.email}
+              </p>
             </div>
           ))}
         </div>
